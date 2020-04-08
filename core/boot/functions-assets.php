@@ -26,7 +26,7 @@ add_action('wp_enqueue_scripts', function() {
  */
 add_action('wp_enqueue_scripts', function() {
   if(function_exists('is_woocommerce')) {
-    if(!is_woocommerce() && !is_cart() && is_checkout()) {
+    if(!is_woocommerce() && !is_cart() && !is_checkout()) {
       // Remove unnecessary stylesheets.
       wp_dequeue_style( 'woocommerce-general' );
       wp_dequeue_style( 'woocommerce-layout' );
