@@ -1,0 +1,18 @@
+.woocommerce form.register,
+.woocommerce form.login {
+  border: 0;
+}
+
+.woocommerce form .form-row label,
+.woocommerce-page form .form-row label {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000;
+}
+
+.woocommerce-LostPassword.lost_password a {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000;
+}

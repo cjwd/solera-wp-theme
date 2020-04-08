@@ -1,0 +1,16 @@
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span {
+  min-width: 3em;
+  min-height: 3em;
+  line-height: 2;
+  font-weight: bold;
+  background-color: #000;
+  color: #fff;
+}
+
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current {
+  background-color: var(--solera-brand);
+  color: #fff;
+}

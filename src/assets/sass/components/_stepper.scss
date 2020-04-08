@@ -1,0 +1,56 @@
+/** Remove default step controls **/
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.control-stepper {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.woocommerce .control-stepper .quantity,
+.woocommerce-page .control-stepper .quantity {
+  width: 100%;
+}
+
+.woocommerce .control-stepper .quantity input.qty,
+.woocommerce-page .control-stepper .quantity input.qty {
+  width: 100%;
+  border-radius: 0;
+  border: 1px solid #707070 !important;
+  font-size: 2em !important;
+  font-weight: bold !important;
+  background-color: #fff !important;
+  color: #000 !important;
+  height: auto;
+}
+
+.control-stepper .quantity .qty,
+.control-stepper__value {
+  padding: 12px 24px;
+  line-height: 1;
+  text-align: center;
+}
+
+.control-stepper__down,
+.control-stepper__up {
+  width: 2em;
+  height: 2em;
+  border: 0;
+  font-size: 2em;
+  font-weight: bold;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.is-disabled {
+  background-color: #ccc;
+  pointer-events: none;
+}

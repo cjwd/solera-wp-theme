@@ -1,0 +1,18 @@
+$h1-size: 60px;
+$h2-size: 36px;
+
+h1,
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: $h1-size;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: $h2-size;
+  line-height: 1.5;
+}

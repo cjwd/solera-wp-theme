@@ -1,0 +1,35 @@
+/*=============================================
+=            Woocommerce My Account Page            =
+=============================================*/
+.woocommerce-MyAccount-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.woocommerce-MyAccount-user {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.woocommerce-account .grid {
+  display: grid;
+  grid-template-columns: 300px auto;
+  grid-gap: 0;
+  background-color: #f6f6f6;
+  &:before,
+  &:after {
+    display: none; // We're using grid so remove these elements
+  }
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation {
+  width: 100%; // Override default
+  grid-column: 1;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content {
+  width: 100%; // Override default
+  grid-column: 2;
+  padding: 48px;
+}

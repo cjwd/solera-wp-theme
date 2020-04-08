@@ -1,0 +1,36 @@
+/*=============================================
+=            Product Search            =
+=============================================*/
+.widget_search form input[type="submit"],
+.widget_search form button[type="submit"],
+.widget_product_search form input[type="submit"],
+.widget_product_search form button[type="submit"] {
+  @include solera-hidden-visually();
+}
+
+.c-siteHeader__right {
+  position: relative;
+}
+
+.c-siteSearch {
+  display: none;
+  &.is-active {
+    display: block;
+    position: absolute;
+    top: -12px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.c-siteSearch .widget_product_search .search-field {
+  width: 100%;
+  min-height: 50px;
+  padding: 12px 24px;
+  border: 0;
+  font-weight: bold;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.125);
+  background: #2d3436;
+  color: #fff;
+}
