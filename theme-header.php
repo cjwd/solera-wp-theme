@@ -52,9 +52,9 @@
             <button id="btn-search" class="c-btn c-btn--action c-btn--search">
               <span class="u-hidden" aria-labelledby="search">Search</span><i class="fas fa-search"></i>
             </button>
-            <?php if(is_user_logged_in()) : ?>
+            <?php //if(is_user_logged_in()) : ?>
               <a class="c-btn c-btn--action c-btn--account" href="<?= get_permalink(get_option('woocommerce_myaccount_page_id'));?>" title="<?php _e('My Account','solera'); ?> "><span class="u-hidden" aria-labelledby="my account">My Account</span><i class="fas fa-user-circle"></i></a>
-            <?php endif; ?>
+            <?php //endif; ?>
             <a class="c-btn c-btn--action c-btn--cart" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart', 'solera' ); ?>">
               <span class="u-hidden" aria-labelledby="my cart">My Cart</span>
               <i class="fas fa-shopping-bag"></i>
