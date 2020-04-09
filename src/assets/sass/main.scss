@@ -12,6 +12,7 @@
 /*----------  Components  ----------*/
 @import "components/header";
 @import "components/site-search";
+@import "components/buttons";
 @import "components/product";
 @import "components/stepper";
 @import "components/single-product";
@@ -21,6 +22,7 @@
 @import "components/woocommerce-forms";
 @import "components/myaccount.scss";
 @import "components/myaccount-nav";
+@import "components/cart-form";
 
 /*----------  Utilities  ----------*/
 @import "utilities/hide";

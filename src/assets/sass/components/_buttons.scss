@@ -1,0 +1,80 @@
+/*=============================================
+=            #Buttons            =
+=============================================*/
+.et_pb_contact_submit,
+.et_password_protected_form .et_submit_button,
+.et_pb_bg_layout_light .et_pb_newsletter_button,
+.comment-reply-link,
+.form-submit .et_pb_button,
+.et_pb_bg_layout_light .et_pb_promo_button,
+.et_pb_bg_layout_light .et_pb_more_button,
+.woocommerce a.button.alt,
+.woocommerce-page a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce button.button.alt.disabled,
+.woocommerce-page button.button.alt,
+.woocommerce-page button.button.alt.disabled,
+.woocommerce input.button.alt,
+.woocommerce-page input.button.alt,
+.woocommerce #respond input#submit.alt,
+.woocommerce-page #respond input#submit.alt,
+.woocommerce #content input.button.alt,
+.woocommerce-page #content input.button.alt,
+.woocommerce a.button,
+.woocommerce-page a.button,
+.woocommerce button.button,
+.woocommerce-page button.button,
+.woocommerce input.button,
+.woocommerce-page input.button,
+.et_pb_contact p input[type="checkbox"]:checked + label i::before,
+.et_pb_bg_layout_light.et_pb_module.et_pb_button {
+  padding: 12px 48px;
+  border: 0;
+  border-radius: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.woocommerce a.button.alt:hover,
+.woocommerce-page a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce button.button.alt.disabled:hover,
+.woocommerce-page button.button.alt:hover,
+.woocommerce-page button.button.alt.disabled:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce-page input.button.alt:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce-page #respond input#submit.alt:hover,
+.woocommerce #content input.button.alt:hover,
+.woocommerce-page #content input.button.alt:hover,
+.woocommerce a.button:hover,
+.woocommerce-page a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce-page button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce-page input.button:hover,
+.woocommerce #respond input#submit:hover,
+.woocommerce-page #respond input#submit:hover,
+.woocommerce #content input.button:hover,
+.woocommerce-page #content input.button:hover {
+  border: 0;
+  padding: 12px 48px;
+}
+
+.woocommerce #respond input#submit.disabled,
+.woocommerce #respond input#submit:disabled,
+.woocommerce #respond input#submit:disabled[disabled],
+.woocommerce a.button.disabled,
+.woocommerce a.button:disabled,
+.woocommerce a.button:disabled[disabled],
+.woocommerce button.button.disabled,
+.woocommerce button.button:disabled,
+.woocommerce button.button:disabled[disabled],
+.woocommerce input.button.disabled,
+.woocommerce input.button:disabled,
+.woocommerce input.button:disabled[disabled] {
+  opacity: 0.1;
+  padding: 12px 48px;
+}
