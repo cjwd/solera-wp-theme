@@ -169,12 +169,13 @@
 
 /** Locations Menu **/
 .c-soleraLocations {
-  grid-column: 2 / 4;
+  grid-column: 1 / -1;
   grid-row: 3;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  @extend %shadow-1;
 }
 
 .c-soleraLocation a {
