@@ -63,6 +63,7 @@ if (mix.inProduction()) {
  *
  * @link https://laravel.com/docs/5.6/mix#working-with-scripts
  */
+mix.js(`${devPath}/scripts/tabs.js`, "scripts");
 mix.js(`${devPath}/scripts/main.js`, "scripts");
 
 /*
