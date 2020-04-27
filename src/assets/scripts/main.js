@@ -1,4 +1,5 @@
 import { setStepperState, add, minus } from "./stepper";
+import { modal } from "./search-modal";
 
 /** Toggle Search */
 const btnSearch = document.getElementById("btn-search");
@@ -7,6 +8,9 @@ btnSearch.addEventListener("click", function(e) {
   e.preventDefault();
   searchEl.classList.add("is-active");
 });
+const headerRightEl = document.getElementById("header-right");
+headerRightEl.addEventListener("click", modal);
+/** Toggle Search End */
 
 /** Add To Cart Stepper */
 const productsEl = document.querySelector(".products");

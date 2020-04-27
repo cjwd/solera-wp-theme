@@ -15,11 +15,12 @@
               wp_nav_menu( $secondary_desktop_nav_args );
             ?>
         </ul>
-        <div class="c-siteHeader__right">
+        <div id="header-right" class="c-siteHeader__right">
           <div id="site-search" class="c-siteSearch">
             <?php the_widget( 'WC_Widget_Product_Search', 'title=' ); ?>
+            <button id="btn-close-search" class="c-btn c-btn--action" data-modal-close="site-search">Cancel</button>
           </div>
-          <button id="btn-search" class="c-btn c-btn--action c-btn--search">
+          <button id="btn-search" class="c-btn c-btn--action c-btn--search" data-modal="site-search">
             <span class="u-hidden" aria-labelledby="search">Search</span><i class="fas fa-search"></i>
           </button>
           <?php //if(is_user_logged_in()) : ?>
