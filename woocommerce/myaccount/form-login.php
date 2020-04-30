@@ -108,7 +108,7 @@ do_action( 'woocommerce_before_customer_login_form' );
       </section>
     </div>
     <div class="solera-promo">
-      <img src="https://via.placeholder.com/800x400" alt="">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/assets/images/midbanner-1@2x.jpg" alt="">
     </div>
   </div>
 </div>
