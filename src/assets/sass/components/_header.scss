@@ -1,43 +1,24 @@
-%o-list-reset {
-  list-style: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-%shadow-1 {
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
-    0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1);
-}
-
-%shadow-2 {
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
-    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
-    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
-}
-
-.et_fixed_nav.et_show_nav #page-container,
-.et_non_fixed_nav.et_transparent_nav.et_show_nav #page-container,
-.et_non_fixed_nav.et_transparent_nav.et_show_nav.et_secondary_nav_enabled
-  #page-container,
-.et_fixed_nav.et_show_nav.et_secondary_nav_enabled #page-container {
-  margin-top: 0;
-  padding-top: 0;
-}
-
-.o-container {
-  max-width: 1240px;
-  margin-left: auto;
-  margin-right: auto;
-}
+/*=============================================
+=            #Site Header (large screens)            =
+=============================================*/
 
 .c-siteHeader {
-  display: grid;
+  display: none;
+  @media screen and (min-width: 1366px) {
+    display: grid;
+  }
   grid-template-columns: 1fr 356px minmax(884px, auto) 1fr;
   grid-template-rows: 50px auto 50px;
 
+  /**
+   *
+   * Use psuedo classes to extend the bg color
+   * of the grid cell
+   *
+   */
   &::before,
   &::after {
-    content: "";
+    content: '';
     background-color: #000;
     grid-row: 2;
   }
@@ -82,6 +63,8 @@
   color: #fff;
 }
 
+/*----------  General Nav styles  ----------*/
+
 .c-auxMenu__list,
 .c-primaryMenu__list,
 .c-categoryMenu__list {
@@ -98,7 +81,8 @@
   text-transform: uppercase;
 }
 
-/** Secondary (Auxilliary) Menu **/
+/*----------  Secondary (Auxilliary) Menu  ----------*/
+
 .c-auxMenu {
   display: flex;
   justify-content: space-between;
@@ -111,23 +95,6 @@
     font-size: 1em;
     color: currentColor;
   }
-}
-
-.c-btn {
-  display: inline-block;
-  padding: 12px 24px;
-  border: 0;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.c-btn--action {
-  padding: 0;
-  line-height: 0;
-  font-size: 24px;
-  background-color: transparent;
-  color: #000;
-  cursor: pointer;
 }
 
 .c-siteHeader__right .c-btn--action {
@@ -144,7 +111,8 @@
   font-weight: bold;
 }
 
-/** Primary Menu **/
+/*----------  Primary Menu  ----------*/
+
 .c-primaryMenu__list {
   .c-menu-item a {
     padding: 43px 24px;
@@ -155,9 +123,32 @@
   .c-current-menu-item {
     border-bottom: 4px solid #fff;
   }
+
+  .c-menu-item-has-children {
+    position: relative;
+    &:hover {
+      .c-menu-item__sub-menu {
+        display: block;
+      }
+    }
+  }
 }
 
-/** Category Menu **/
+/* Primary Menu Sub Menu items */
+
+.c-primaryMenu__list .c-menu-item__sub-menu {
+  position: absolute;
+  z-index: 9999;
+  min-width: 300px;
+  display: none;
+
+  .c-menu-item__link {
+    padding: 24px;
+  }
+}
+
+/*----------  Category Menu  ----------*/
+
 .c-categoryMenu__list {
   justify-content: center;
 
@@ -167,7 +158,8 @@
   }
 }
 
-/** Locations Menu **/
+/*----------  Locations Menu  ----------*/
+
 .c-soleraLocations {
   grid-column: 1 / -1;
   grid-row: 3;
