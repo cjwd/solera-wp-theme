@@ -1,6 +1,9 @@
 /*=============================================
 =            #Buttons            =
 =============================================*/
+
+/*----------  Divi Overrides ( :( )  ----------*/
+
 .et_pb_contact_submit,
 .et_password_protected_form .et_submit_button,
 .et_pb_bg_layout_light .et_pb_newsletter_button,
@@ -26,7 +29,7 @@
 .woocommerce-page button.button,
 .woocommerce input.button,
 .woocommerce-page input.button,
-.et_pb_contact p input[type="checkbox"]:checked + label i::before,
+.et_pb_contact p input[type='checkbox']:checked + label i::before,
 .et_pb_bg_layout_light.et_pb_module.et_pb_button {
   padding: 12px 48px;
   border: 0;
@@ -77,4 +80,21 @@
 .woocommerce input.button:disabled[disabled] {
   opacity: 0.1;
   padding: 12px 48px;
+}
+
+.c-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.c-btn--action {
+  padding: 0;
+  line-height: 0;
+  font-size: 24px;
+  background-color: transparent;
+  color: currentColor;
+  cursor: pointer;
 }
