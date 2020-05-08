@@ -1,35 +1,59 @@
-import { setStepperState, add, minus } from "./stepper";
-import { modal } from "./search-modal";
+import { setStepperState, add, minus } from './stepper';
+import { modal } from './modal';
+import { slideToggle, slideUp } from './slideToggle';
 
-/** Toggle Search */
-const btnSearch = document.getElementById("btn-search");
-const searchEl = document.getElementById("site-search");
-btnSearch.addEventListener("click", function(e) {
-  e.preventDefault();
-  searchEl.classList.add("is-active");
+const parent = document.getElementById('page-container');
+parent.addEventListener('click', function(e) {
+  /** Toggle Menu */
+  if (e.target.id == 'btn-menu') {
+    var mobileMenu = document.querySelector('.c-mobileMenuWrapper');
+    mobileMenu.classList.add('open');
+    document.body.classList.add('has-overlay');
+  }
+  /** Toggle Search */
+  if (e.target.id == 'btn-search' || e.target.id == 'btn-close-search') {
+    modal(e.target);
+  }
 });
-const headerRightEl = document.getElementById("header-right");
-headerRightEl.addEventListener("click", modal);
-/** Toggle Search End */
+
+var mobileMenuWrapper = document.querySelector('.c-mobileMenuWrapper');
+var btnCloseMobileMenu = document.querySelector('.c-btn--close');
+btnCloseMobileMenu.addEventListener('click', function() {
+  mobileMenuWrapper.classList.remove('open');
+  document.body.classList.remove('overlay');
+});
+
+/** Toggle Mobile Menu Submenus */
+var mobileNav = document.getElementById('mobile-primary-menu');
+mobileNav.addEventListener('click', function(e) {
+  if (e.target.parentElement.classList.contains('c-menu-item-has-children')) {
+    slideToggle(e.target.nextElementSibling, 500);
+    if (e.target.classList.contains('is-active')) {
+      e.target.classList.remove('is-active');
+    } else {
+      e.target.classList.add('is-active');
+    }
+  }
+});
 
 /** Add To Cart Stepper */
-const productsEl = document.querySelector(".products");
+const productsEl = document.querySelector('.products');
 if (productsEl) {
-  productsEl.addEventListener("click", function(e) {
+  productsEl.addEventListener('click', function(e) {
     let buttonEl = e.target,
       action = e.target.dataset.action;
 
-    if (action === "add") {
+    if (action === 'add') {
       add(buttonEl);
     }
 
-    if (action === "minus") {
+    if (action === 'minus') {
       minus(buttonEl);
     }
   });
 
-  productsEl.addEventListener("change", function(e) {
-    if (e.target.matches(".qty")) {
+  productsEl.addEventListener('change', function(e) {
+    if (e.target.matches('.qty')) {
       setStepperState(
         Number(e.target.value),
         e.target.parentElement.previousElementSibling,

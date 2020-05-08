@@ -1,29 +1,38 @@
 :root {
   --solera-brand: #b72622;
   --solera-light-grey: #f6f6f6;
+  --animate-duration: 1s;
+  --animate-delay: 1s;
+  --animate-repeat: 1;
 }
 
 /*----------  Tool  ----------*/
-@import "tools/hide";
+@import 'tools/hide';
 
 /*----------  Elements  ----------*/
-@import "elements/headings";
+@import 'elements/page';
+@import 'elements/headings';
+@import 'elements/buttons';
 
 /*----------  Components  ----------*/
-@import "components/header";
-@import "components/site-search";
-@import "components/buttons";
-@import "components/product";
-@import "components/stepper";
-@import "components/single-product";
-@import "components/related-products";
-@import "components/pagination";
-@import "components/tabs";
-@import "components/woocommerce-forms";
-@import "components/myaccount.scss";
-@import "components/myaccount-nav";
-@import "components/cart-form";
+@import 'components/page';
+@import 'components/header';
+@import 'components/header-mobile';
+@import 'components/site-search';
+@import 'components/buttons';
+@import 'components/product';
+@import 'components/stepper';
+@import 'components/single-product';
+@import 'components/related-products';
+@import 'components/pagination';
+@import 'components/tabs';
+@import 'components/woocommerce-forms';
+@import 'components/myaccount.scss';
+@import 'components/myaccount-nav';
+@import 'components/cart-form';
 
 /*----------  Utilities  ----------*/
-@import "utilities/hide";
-@import "utilities/overlay";
+@import 'utilities/hide';
+@import 'utilities/overlay';
+@import 'utilities/lists';
+@import 'utilities/shadows';
