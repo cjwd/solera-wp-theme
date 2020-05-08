@@ -7,7 +7,7 @@
 		"uuidString": "E14E51A0-2D23-4F9D-BD93-1C59E4414028"
 		}
 	],
-"creatorBuild": "31934",
+"creatorBuild": "32137",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -41,7 +41,7 @@
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/dist/node_modules",
-		"oF": 1
+		"oF": 0
 		},
 	"/package-lock.json": {
 		"ft": 524288,
@@ -89,6 +89,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/src/assets/images/menu-promo-widget.jpg": {
+		"ft": 16384,
+		"iS": 83127,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/images/menu-promo-widget.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/src/assets/images/midbanner-1@2x.jpg": {
+		"ft": 16384,
+		"iS": 527736,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/images/midbanner-1@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/src/assets/images/solera-logo-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -103,183 +125,235 @@
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/assets/css/components/_buttons.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 0
 		},
 	"/src/assets/sass/components/_cart-form.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/assets/css/components/_cart-form.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 0
+		},
+	"/src/assets/sass/components/_header-mobile.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/assets/css/components/_header-mobile.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
 		},
 	"/src/assets/sass/components/_header.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/assets/css/components/_header.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 0
 		},
 	"/src/assets/sass/components/_myaccount-nav.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/assets/css/components/_myaccount-nav.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 0
+		},
+	"/src/assets/sass/components/_page.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/assets/css/components/_page.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
 		},
 	"/src/assets/sass/components/_pagination.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/assets/css/components/_pagination.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 0
 		},
 	"/src/assets/sass/components/_product.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/assets/css/components/_product.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 0
 		},
 	"/src/assets/sass/components/_related-products.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/assets/css/components/_related-products.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 0
 		},
 	"/src/assets/sass/components/_single-product.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/assets/css/components/_single-product.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 0
 		},
 	"/src/assets/sass/components/_site-search.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/assets/css/components/_site-search.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 0
 		},
 	"/src/assets/sass/components/_stepper.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/assets/css/components/_stepper.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 0
 		},
 	"/src/assets/sass/components/_tabs.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/assets/css/components/_tabs.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 0
 		},
 	"/src/assets/sass/components/_woocommerce-forms.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/assets/css/components/_woocommerce-forms.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 0
 		},
 	"/src/assets/sass/components/myaccount.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/assets/css/components/myaccount.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 0
+		},
+	"/src/assets/sass/elements/_buttons.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/assets/css/elements/_buttons.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
 		},
 	"/src/assets/sass/elements/_headings.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/assets/css/elements/_headings.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 0
+		},
+	"/src/assets/sass/elements/_page.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/assets/css/elements/_page.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
 		},
 	"/src/assets/sass/main.css": {
 		"aP": 1,
@@ -295,45 +369,84 @@
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/dist/assets/css/main.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 0
 		},
 	"/src/assets/sass/tools/_hide.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/assets/css/tools/_hide.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 0
 		},
 	"/src/assets/sass/utilities/_hide.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/assets/css/utilities/_hide.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 0
+		},
+	"/src/assets/sass/utilities/_lists.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/assets/css/utilities/_lists.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
+		},
+	"/src/assets/sass/utilities/_overlay.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/assets/css/utilities/_overlay.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
+		},
+	"/src/assets/sass/utilities/_shadows.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/assets/css/utilities/_shadows.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
 		},
 	"/src/assets/scripts/main.js": {
 		"bF": 6,
 		"ft": 64,
-		"ma": 0,
+		"ma": 1,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/dist/assets/scripts/main.js",
@@ -341,10 +454,32 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"/src/assets/scripts/modal.js": {
+		"bF": 6,
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dist/assets/scripts/modal.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"/src/assets/scripts/slideToggle.js": {
+		"bF": 6,
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dist/assets/scripts/slideToggle.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"/src/assets/scripts/stepper.js": {
 		"bF": 6,
 		"ft": 64,
-		"ma": 0,
+		"ma": 1,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dist/assets/scripts/stepper.js",
@@ -355,7 +490,7 @@
 	"/src/assets/scripts/tabs.js": {
 		"bF": 6,
 		"ft": 64,
-		"ma": 0,
+		"ma": 1,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/dist/assets/scripts/tabs.js",
@@ -373,6 +508,30 @@
 		"oF": 1,
 		"oS": 3
 		},
+	"/template-parts/actions.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dist/template-parts/actions.php",
+		"oF": 1
+		},
+	"/template-parts/mobile-nav.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dist/template-parts/mobile-nav.php",
+		"oF": 1
+		},
+	"/template-parts/solera-locations.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/template-parts/solera-locations.php",
+		"oF": 0
+		},
 	"/theme-header.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -384,7 +543,7 @@
 	"/webpack.mix.js": {
 		"bF": 6,
 		"ft": 64,
-		"ma": 0,
+		"ma": 1,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dist/webpack.mix.js",
@@ -417,7 +576,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-cafe",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 607004051.57765698
+	"lastBuiltDate": 609702960.44776702
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1013,6 +1172,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"grouped-accessor-pairs": {
+			"active": 0,
+			"optionString": "'anyOrder'"
+			},
 		"guard-for-in": {
 			"active": 0,
 			"optionString": ""
@@ -1178,7 +1341,7 @@
 			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
@@ -1188,6 +1351,10 @@
 		"no-constant-condition": {
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
+			},
+		"no-constructor-return": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-continue": {
 			"active": 0,
@@ -1214,6 +1381,10 @@
 			"optionString": ""
 			},
 		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-else-if": {
 			"active": 1,
 			"optionString": ""
 			},
@@ -1517,6 +1688,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-setter-return": {
+			"active": 1,
+			"optionString": ""
+			},
 		"no-shadow": {
 			"active": 0,
 			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
@@ -1720,6 +1895,10 @@
 		"prefer-destructuring": {
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-exponentiation-operator": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-named-capture-group": {
 			"active": 0,
@@ -2314,7 +2493,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"bundleFormat": 6,
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 3,
 		"transpilerStyle": 1
@@ -2417,13 +2596,13 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 3,
+		"compilerType": 0,
 		"createSourceMap": 1,
-		"debugStyle": 0,
 		"decimalPrecision": 10,
+		"emitCharset": 1,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"useLibsass": 1
+		"shouldRunBless": 0
 		},
 	"languageDefaultsSLIM": {
 		"autoOutputAction": 0,
