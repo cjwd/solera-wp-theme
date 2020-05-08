@@ -1,19 +1,11 @@
 /*=============================================
 =            Product Search            =
 =============================================*/
-.widget_search form input[type="submit"],
-.widget_search form button[type="submit"],
-.widget_product_search form input[type="submit"],
-.widget_product_search form button[type="submit"] {
+.widget_search form input[type='submit'],
+.widget_search form button[type='submit'],
+.widget_product_search form input[type='submit'],
+.widget_product_search form button[type='submit'] {
   @include solera-hidden-visually();
-}
-
-.c-siteHeader__right {
-  // position: relative;
-}
-
-.fas {
-  pointer-events: none;
 }
 
 .c-siteSearch {
@@ -24,7 +16,7 @@
   bottom: 0;
   z-index: 9999;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
   padding: 1rem;
   background: rgba(0, 0, 0, 0.8);
@@ -39,6 +31,7 @@
 }
 
 .c-siteSearch .widget_product_search {
+  margin-top: 200px;
   margin-right: 24px;
 }
 
