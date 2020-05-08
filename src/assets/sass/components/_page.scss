@@ -1,0 +1,8 @@
+.et_fixed_nav.et_show_nav #page-container,
+.et_non_fixed_nav.et_transparent_nav.et_show_nav #page-container,
+.et_non_fixed_nav.et_transparent_nav.et_show_nav.et_secondary_nav_enabled
+  #page-container,
+.et_fixed_nav.et_show_nav.et_secondary_nav_enabled #page-container {
+  margin-top: 0;
+  padding-top: 0;
+}
