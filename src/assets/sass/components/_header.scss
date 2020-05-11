@@ -35,12 +35,12 @@
 .c-siteHeader__logo {
   grid-column: 2 / span 1;
   grid-row: 1 / 3;
-  width: 356px;
+  width: 355px;
   height: 164px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--solera-brand);
+  @extend %gradient-1;
   img {
     display: block;
     width: 266px;
