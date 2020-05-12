@@ -1,0 +1,88 @@
+/*=============================================
+=            #Newsletter Pop Up            =
+=============================================*/
+
+.c-NewsletterPopup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 50px;
+  border-radius: 5px;
+  background: url(/wp-content/uploads/2020/05/cheers-at-sunset-large.jpg) center
+    center no-repeat;
+  background-size: cover;
+  color: #fff;
+
+  .popmake-close {
+    top: 220px;
+    right: 200px;
+  }
+
+  .c-soleraLocations {
+    box-shadow: none;
+    background: transparent;
+    a {
+      color: currentColor;
+    }
+  }
+}
+
+/*----------  #Mailchimp for WordPress Form  ----------*/
+
+.mc4wp-form-fields {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  p {
+    padding-bottom: 0;
+  }
+
+  input {
+    --placeholder-color: #000;
+    --placeholder-weight: 700;
+    padding: 12px 24px;
+    border: 1px solid #707070;
+    color: var(--placeholder-color);
+    font-weight: var(--placeholder-weight);
+    &::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: var(--placeholder-color);
+      text-transform: uppercase;
+      font-weight: var(--placeholder-weight);
+    }
+    &::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #000;
+      text-transform: uppercase;
+      font-weight: var(--placeholder-weight);
+    }
+    &:-ms-input-placeholder {
+      /* IE 10+ */
+      color: var(--placeholder-color);
+      text-transform: uppercase;
+      font-weight: var(--placeholder-weight);
+    }
+    &:-moz-placeholder {
+      /* Firefox 18- */
+      color: var(--placeholder-color);
+      text-transform: uppercase;
+      font-weight: var(--placeholder-weight);
+    }
+  }
+
+  input[type='submit'] {
+    @extend .c-btn;
+    display: inline-block;
+    padding: 12px 24px;
+    border: 1px solid #707070;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    background-color: #000;
+    font-weight: bold;
+    color: #fff;
+  }
+}
+
+/*=====  End of #Newsletter Pop Up  ======*/
