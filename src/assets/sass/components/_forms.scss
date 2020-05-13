@@ -1,0 +1,80 @@
+/*=============================================
+=            #Form              =
+=============================================*/
+
+/*----------  Caldera Forms  ----------*/
+
+/*** MAIN FORM CONTAINER ***/
+.caldera-grid {
+  // padding: 30px 25px 15px 25px;
+}
+
+/*** FIELD STYLING ***/
+.caldera-grid .control-label {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.caldera-grid .form-control {
+  height: auto !important;
+  padding: 12px 16px !important;
+  transition: box-shadow 0.2s ease-in-out;
+}
+/*** BUTTON STYLING ***/
+.caldera-grid input[type='submit'] {
+  width: 200px;
+  text-transform: uppercase;
+  padding: 10px 12px;
+  border-radius: 2px;
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.5s ease-in-out;
+  font-weight: bold;
+}
+/*** BUTTON HOVER STYLING ***/
+.caldera-grid input[type='submit']:hover {
+  background: #0000009f;
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.3);
+}
+/*** PLACEHOLDER STYLING ***/
+input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+input:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+textarea::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+textarea:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+textarea::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+textarea:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+/*** TEXTAREA TRANSITION ***/
+.caldera-grid textarea.form-control {
+  height: 10em;
+  transition: height 0.3s ease-out;
+}
+/*** TEXTAREA FOCUS HEIGHT ***/
+.caldera-grid textarea.form-control:focus {
+  height: 25em;
+}
+/*** APPLIES SHADOW TO FIELD SELECTED ***/
+.caldera-grid .form-control:focus {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.3);
+}
+
+/*=====  End of #Forms    ======*/
