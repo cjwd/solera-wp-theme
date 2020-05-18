@@ -84,8 +84,3 @@ add_action('woocommerce_before_account_navigation', function() {
 add_action('woocommerce_after_my_account', function() {
   echo '</div>';
 });
-
-/** Woocommerce Products Compare */
-add_filter( 'woocommerce_products_compare_end_point', function(){
-  return 'products-comparison';
-});
