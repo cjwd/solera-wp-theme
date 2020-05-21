@@ -4,7 +4,7 @@
   text-transform: uppercase;
 
   &::before {
-    content: "";
+    content: '';
     display: block;
     height: 1px;
     width: 60%;
@@ -48,7 +48,7 @@
 
   // Product Title
   .woocommerce-loop-product__title {
-    font-size: 20px;
+    font-size: 20px !important; /** Because Divi -__- **/
   }
 
   // Product Price
