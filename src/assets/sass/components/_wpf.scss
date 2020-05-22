@@ -1,0 +1,81 @@
+/*=============================================
+=            #Woocommerce Product Filter            =
+=============================================*/
+
+/**
+ *
+ * Woocommerce Product Filter Plugin
+ * https://wordpress.org/plugins/themify-wc-product-filter/
+ *
+ */
+
+/*=====  End of #Woocommerce Product Filter  ======*/
+.wpf_layout_horizontal {
+  .wpf_item {
+    border: 1px solid rgba(0, 0, 0, 1) !important;
+  }
+
+  .wpf_item_name {
+    font-weight: bold !important;
+    text-transform: uppercase;
+  }
+
+  .wpf_item_wpf_cat .wpf_items_group.wpf_right_tab {
+    width: 400px !important;
+    right: 0;
+    left: 0;
+  }
+}
+
+.wpf_hierachy {
+  li {
+    display: block !important;
+  }
+
+  .wpf_submenu {
+    margin-left: 30px !important;
+    border-left: 0 !important;
+  }
+  > li .wpf_submenu {
+    > li label {
+      font-weight: bold;
+    }
+  }
+}
+
+.wpf_level_3 {
+  li label {
+    color: var(--solera-brand);
+  }
+}
+
+/*----------  Pagination  ----------*/
+
+.wpf_infinity a {
+  padding: 12px 48px !important;
+  background-color: #000 !important;
+  color: #fff !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 0 !important;
+}
+
+/**
+ *
+ * Consider moving
+ *
+ */
+.woocommerce .woocommerce-ordering select {
+  @extend %o-select;
+}
+
+/*----------  Divi Overrides  ----------*/
+
+.et_pb_module.et_pb_shop.wpf-search-container .page-title,
+.et_pb_module.et_pb_shop.wpf-search-container .woocommerce-result-count {
+  display: block !important;
+}
+
+.et-db #et-boc .et-l .et_pb_column {
+  z-index: unset;
+}
