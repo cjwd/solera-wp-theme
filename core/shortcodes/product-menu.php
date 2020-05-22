@@ -1,11 +1,11 @@
 <?php
-add_shortcode('so_product_menu', function($atts){
+add_shortcode('solera_product_category_menu', function($atts){
   $atts = shortcode_atts(
     [
       'wrapper' =>  'ul',
     ],
     $atts,
-    'so_product_menu'
+    'solera_product_category_menu'
   );
 
   extract($atts);
