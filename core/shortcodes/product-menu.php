@@ -31,6 +31,7 @@ add_shortcode('solera_product_category_menu', function($atts){
           }
           ?>
         </ul>
+        <p class="c-breadcrumbs c-breadcrumbs--products u-align-center">Browsing in <?= get_term_parents_list($cat_id, 'product_cat'); ?></p>
       </nav>
     </div>
     <?php
