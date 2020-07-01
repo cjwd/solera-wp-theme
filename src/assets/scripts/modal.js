@@ -11,7 +11,6 @@ export function modal(el) {
   }
 
   if (el.hasAttribute('data-modal-close')) {
-    console.log(el);
     modal = document.getElementById(el.dataset.modalClose);
     modal.classList.remove(activeClass);
     body.classList.remove('u-overlay');
