@@ -84,3 +84,13 @@ add_action('woocommerce_before_account_navigation', function() {
 add_action('woocommerce_after_my_account', function() {
   echo '</div>';
 });
+
+/**
+ * Custom currency symbol for TTD
+ */
+add_filter('woocommerce_currency_symbol', function($currency_symbol, $currency) {
+  switch( $currency ) {
+    case 'TTD': $currency_symbol = 'TT$'; break;
+  }
+  return $currency_symbol;
+}, 10, 2);
