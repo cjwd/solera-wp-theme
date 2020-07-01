@@ -69,11 +69,6 @@ function woocommerce_header_add_to_cart_fragment( $fragments ) {
 
 
 add_action('woocommerce_before_account_navigation', function() {
-  $current_user = get_user_by( 'id', get_current_user_id() );
-  echo '<div class="woocommerce-MyAccount-header">';
-  echo '<h1>My Solera</h1>';
-  echo '<span class="woocommerce-MyAccount-user">' . esc_html( $current_user->first_name ) . ' ' . esc_html( $current_user->last_name ) . '</span>';
-  echo '</div>';
   echo '<div class="grid">';
 });
 
