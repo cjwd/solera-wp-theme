@@ -13,6 +13,14 @@ parent.addEventListener('click', function(e) {
   /** Toggle Search */
   if (e.target.id == 'btn-search' || e.target.id == 'btn-close-search') {
     modal(e.target);
+    const searchField = document.getElementById(
+      'woocommerce-product-search-field-0',
+    );
+    if (searchField) {
+      setTimeout(function() {
+        searchField.focus();
+      }, 1000);
+    }
   }
 });
 
