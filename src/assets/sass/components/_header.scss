@@ -99,6 +99,20 @@
     font-size: 1em;
     color: currentColor;
   }
+
+  .c-menu-item-has-children {
+    position: relative;
+    > .c-menu-item__sub-menu {
+      display: none;
+      position: absolute;
+      background-color: #fff;
+    }
+    &:hover {
+      .c-menu-item__sub-menu {
+        display: block;
+      }
+    }
+  }
 }
 
 .c-siteHeader__right .c-btn--action {
