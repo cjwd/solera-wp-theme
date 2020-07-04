@@ -17,14 +17,8 @@ do_action( 'woocommerce_before_customer_login_form' );
 
 <div class="u-columns col2-set" id="customer_login">
   <div class="u-column1 col-1">
-    <h1><?php esc_html_e('Register with us','solera'); ?></h1>
+    <h1><?php esc_html_e('Create Account','solera'); ?></h1>
     <p>With our 2 locations nationwide, Solera Wines & Spirits is Trinidad’s leader in selection, service and low prices of wines, spirits and beers. Our aisles typically offer over 150 different wines and 60 spirits. Head to one of our local store for special tastings, educational classes and fun events.</p>
-    <h2><?php esc_html_e('Why Register?','solera'); ?></h2>
-    <ul>
-      <li>Save your favourite wines so you don’t have to find them each time.</li>
-      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</li>
-      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</li>
-    </ul>
   </div>
   <div class="u-column2 col-2">
     <div class="tabs">
