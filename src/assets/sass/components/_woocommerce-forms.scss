@@ -16,3 +16,13 @@
   font-weight: bold;
   color: #000;
 }
+
+.c-customer-login-wrapper {
+  max-width: 620px;
+  margin: 0 auto;
+}
+.woocommerce-account:not(.is-logged-in) {
+  h1 {
+    text-align: center;
+  }
+}
