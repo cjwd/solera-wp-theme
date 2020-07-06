@@ -6,3 +6,19 @@
   margin-top: 0;
   padding-top: 0;
 }
+
+.container,
+.et-db #et-boc .et-l .container,
+.et-db #et-boc .et-l .et_pb_row,
+.et-db #et-boc .et-l .et_pb_slider .et_pb_container,
+.et-db #et-boc .et-l .et_pb_fullwidth_section .et_pb_title_container,
+.et-db #et-boc .et-l .et_pb_fullwidth_section .et_pb_title_featured_container,
+.et-db
+  #et-boc
+  .et-l
+  .et_pb_fullwidth_header:not(.et_pb_fullscreen)
+  .et_pb_fullwidth_header_container {
+  @media screen and (max-width: 980px) {
+    width: 100%;
+  }
+}
