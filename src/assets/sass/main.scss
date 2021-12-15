@@ -1,9 +1,9 @@
 :root {
-  --solera-brand: #b72622;
-  --solera-light-grey: #f6f6f6;
-  --animate-duration: 1s;
-  --animate-delay: 1s;
-  --animate-repeat: 1;
+	--solera-brand: #b72622;
+	--solera-light-grey: #f6f6f6;
+	--animate-duration: 1s;
+	--animate-delay: 1s;
+	--animate-repeat: 1;
 }
 
 /*----------  Tool  ----------*/
@@ -40,6 +40,133 @@
 @import 'components/forms';
 @import 'components/wpf';
 @import 'components/breadcrumbs';
+
+/** Test Additional CSS **/
+.tabs > ul {
+	list-style: none !important;
+	padding: 0 !important;
+}
+
+.single-product .nmgr-add-to-wishlist-wrapper {
+	text-align: center;
+}
+
+.single-product .woocommerce-products-compare-compare-button {
+	display: none;
+}
+
+.woocommerce div.product form.cart .variations td select {
+	border-style: solid !important;
+}
+
+.et_pb_wc_add_to_cart form.cart .variations td.value span:after {
+	border-color: #fff transparent transparent transparent !important;
+	transform: translateY(-195%) !important;
+}
+
+@media screen and (max-width: 980px) {
+	.container,
+	.et-db #et-boc .et-l .container,
+	.et-db #et-boc .et-l .et_pb_row,
+	.et-db #et-boc .et-l .et_pb_slider .et_pb_container,
+	.et-db #et-boc .et-l .et_pb_fullwidth_section .et_pb_title_container,
+	.et-db
+		#et-boc
+		.et-l
+		.et_pb_fullwidth_section
+		.et_pb_title_featured_container,
+	.et-db
+		#et-boc
+		.et-l
+		.et_pb_fullwidth_header:not(.et_pb_fullscreen)
+		.et_pb_fullwidth_header_container {
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+/** Temporary Fix **/
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+	-webkit-appearance: textfield !important;
+}
+
+/** Gift Registry **/
+.nmgr-search-form .search-field {
+	border: 1px solid #ccc;
+	padding: 16px 24px;
+}
+
+.nmgr-search-form button {
+	padding: 16px 24px;
+	background-color: black;
+	color: white;
+	border: 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+.c-menu-item.new-feature {
+	position: relative;
+}
+
+.new-feature::after {
+	content: 'NEW';
+	position: absolute;
+	display: block;
+	top: -2px;
+	right: -5px;
+	padding: 4px;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 1;
+	border-radius: 4px;
+	background-color: #b72622;
+	color: #fff;
+}
+
+/** Solera eGift Cards **/
+.gift-cards_form > h3 {
+	margin: 24px 0;
+	font-size: 20px;
+}
+
+.gift-cards-list > h3 {
+	font-size: 20px;
+}
+
+.gift-card-content-editor > h5 {
+	margin-top: 0;
+	font-size: 16px;
+}
+
+.ywgc-amount-buttons {
+	padding: 8px 12px;
+}
+
+#ywgc-manual-amount {
+	width: 150px !important;
+}
+
+#ywgc-manual-amount::placeholder {
+	color: #000 !important;
+}
+
+.ywgc-currency-symbol {
+	margin-left: -140px !important;
+}
+
+.gift-card-content-editor.step-content input {
+	text-align: left !important;
+	padding: 12px 24px;
+}
+
+.ywgc-design-list .ywgc-preset-image img {
+	width: 250px;
+	height: 250px;
+}
 
 /*----------  Utilities  ----------*/
 @import 'utilities/hide';
